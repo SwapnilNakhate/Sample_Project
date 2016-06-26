@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/bgorange">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="17dp"
+       android:layout_y="28dp"
+       android:text="Call  &quot;e.g. : Swapnil&quot;"
+       android:textSize="20dp"
+       android:textColor="#ff0000" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="14dp"
+       android:layout_y="75dp"
+       android:text="Search  &quot;eg : Android&quot;"
+       android:textSize="20dp"
+       android:textColor="#ff0000" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="12dp"
+       android:layout_y="112dp"
+       android:text="Locate   &quot;e.g. Nanded&quot;"
+       android:textSize="20dp" 
+       android:textColor="#ff0000"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="12dp"
+       android:layout_y="149dp"
+       android:text="Wiki  &quot;e.g. Steve Jobs&quot;"
+       android:textSize="20dp" 
+       android:textColor="#ff0000"/>
+
+   <TextView
+       android:layout_width="272dp"
+       android:layout_height="wrap_content"
+       android:layout_x="15dp"
+       android:layout_y="219dp"
+       android:text="Greetings &quot;e.g. Good Morning/Good Night/..&quot;"
+       android:textSize="20dp" 
+       android:textColor="#ff0000"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="11dp"
+       android:layout_y="185dp"
+       android:text="Camera"
+       android:textSize="20dp" 
+       android:textColor="#ff0000"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="19dp"
+       android:layout_y="285dp"
+       android:text="SMS  &quot;e.g. Contact&quot;"
+       android:textColor="#ff0000"
+       android:textSize="20dp" />
+
+   <ImageButton
+       android:layout_width="74dp"
+       android:layout_height="218dp"
+       android:layout_x="126dp"
+       android:layout_y="292dp"
+       android:background="@null"
+       android:onClick="clickSpeech"
+       android:src="@drawable/button" />
+ 
+</AbsoluteLayout>
